@@ -22,7 +22,7 @@ public abstract class Vehicle implements IPrintable {
     {
         this.plate = plate;
     }
-
+//this is demo comment
     @Override
     public String printMyData()
     {
