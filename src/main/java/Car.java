@@ -4,6 +4,7 @@ public class Car extends Vehicle implements IPrintable {
     public String printMyData()
     {
         return "Car =" + getMake() + ", Plate=" + getPlate() + "]";
+        //jihbjhbkj
     }
 
 }
