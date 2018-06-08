@@ -5,6 +5,7 @@ public class Car extends Vehicle implements IPrintable {
     {
         return "Car =" + getMake() + ", Plate=" + getPlate() + "]";
         //jihbjhbkj
+        //Rakhi
     }
 
 }
