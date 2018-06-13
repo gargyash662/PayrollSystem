@@ -1,3 +1,5 @@
+package com.payroll;
+
 public abstract class Vehicle implements IPrintable {
 
     private String make;
