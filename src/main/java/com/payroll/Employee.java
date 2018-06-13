@@ -1,46 +1,56 @@
 
-    public abstract class Employee implements IPrintable {
+package com.payroll;
 
-        private String name;
-        private int age;
+public abstract class Employee implements IPrintable {
 
-        public String getName()
-        {
-            return name;
-        }
+    private String name;
+    private int age;
+    private Vehicle vehicle;
 
-        public void setName(String name)
-        {
-            this.name = name;
-        }
-
-        public int getAge()
-        {
-            return age;
-        }
-
-        public void setAge(int age)
-        {
-            this.age = age;
-        }
-
-        public int calcBirthYear()
-        {
-            return 2018 - age;
-        }
-
-
-
-
-
-        public double calcEarning()
-        {
-            return 1000;
-        }
-
-
+    public String getName()
+    {
+        return name;
     }
 
+    public void setName(String name)
+    {
+        this.name = name;
+    }
 
+    public int getAge()
+    {
+        return age;
+    }
 
+    public void setAge(int age)
+    {
+        this.age = age;
+    }
 
+    public int calcBirthYear()
+    {
+        return 2018 - age;
+    }
+
+    public Vehicle getVehicle()
+    {
+        return vehicle;
+    }
+
+    public void setVehicle(Vehicle vehicle)
+    {
+        this.vehicle = vehicle;
+    }
+
+    public double calcEarning()
+    {
+        return 1000;
+    }
+
+    @Override
+    public String printMyData()
+    {
+        return "name=" + name + ", age=" + age + ", vehicle=" + getVehicle().printMyData() +
+    }
+
+}
