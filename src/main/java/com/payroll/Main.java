@@ -79,6 +79,21 @@ public class Main {
         i2.setVehicle(bike2);
         System.out.println("Intern" + i2.printMyData());
 
+        CommissionBasedPartTime c1 = new CommissionBasedPartTime();
+        c1.setName("Rose");
+        c1.setAge(40);
+        c1.setRate(25);
+        c1.setHoursWorked(19);
+        c1.setCommissionPerc(30);
+        Vehicle bike3 = new MotorCycle();
+        bike3.setMake("Karizma");
+        bike3.setPlate("TTEYN");
+        c1.setVehicle(bike3);
+        //System.out.println("Commission Based Part time Employee's Total Earnings : " + c.calcEarning());
+        //System.out.println("Commission Based Part time Employee's Birth Year : " + c.calcBirthYear());
+        System.out.println("Commission Based Part time Employee's data : " + c1.printMyData());
+
+
 
 
     }

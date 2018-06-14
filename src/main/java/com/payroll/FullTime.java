@@ -38,7 +38,7 @@ public class FullTime extends Employee implements IPrintable {
     {
         /*return "Salary= " + salary + ", Bonus=" + bonus + ", Name=" + getName() + ", Age=" + getAge()
                 + ", vehicle=" + getVehicle().printMyData() +"]";*/
-        return "Name =  " + getName() + ", Bonus=" + bonus + ", Salary=" + salary + ", Age=" + getAge()
+        return "Name =  " + getName() +", Bonus=" + bonus + ", Salary=" + salary + ", Age=" + getAge()
                 + ", Employee Has A :" + getVehicle().printMyData() +"]";
     }
 
