@@ -56,7 +56,7 @@ public class Main {
         i.setVehicle(bike1);
         //System.out.println("Intern's Total Earnings : " + i.calcEarning());
         //System.out.println("Intern's Birth Year : " + i.calcBirthYear());
-        System.out.println(""+ i.printMyData());
+        System.out.println("Intern"+ i.printMyData());
 
     }
 }

@@ -50,7 +50,7 @@ public abstract class Employee implements IPrintable {
     @Override
     public String printMyData()
     {
-        return "name=" + name + ", age=" + age + ", vehicle=" + getVehicle().printMyData() + "";
+        return "name=" + name + ", age=" + age + ", vehicle=" + getVehicle() + "";
     }
 
 }

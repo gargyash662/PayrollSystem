@@ -26,7 +26,7 @@ public class CommissionBasedPartTime extends PartTime implements IPrintable {
     public String printMyData()
     {
         return " Commission=" + commissionPerc + ", Rate=" + getRate() + ", HoursWorked="
-                + getHoursWorked() + ", Name=" + getName() + ", Age=" + getAge() + ", vehicle="
+                + getHoursWorked() + ", Name=" + getName() + ", Age=" + getAge() + ", Employee Has A :"
                 + getVehicle().printMyData() + "]";
     }
 

@@ -29,7 +29,7 @@ public abstract class PartTime extends Employee implements IPrintable {
     public String printMyData()
     {
         return " rate=" + rate + ", hoursWorked=" + hoursWorked + ", getName()=" + getName() + ", getAge()="
-                + getAge() + ", vehicle=" + getVehicle().printMyData() + "";
+                + getAge() + ", Employee Has A :" + getVehicle().printMyData() + "";
     }
 
 }

@@ -24,7 +24,7 @@ public class FixedBasedPartTime extends PartTime implements IPrintable {
     public String printMyData()
     {
         return "FixedAmount=" + fixedAmount + ", Rate=" + getRate() + ", HoursWorked="
-                + getHoursWorked() + ", Name=" + getName() + ", Age=" + getAge() + ", vehicle="
+                + getHoursWorked() + ", Name=" + getName() + ", Age=" + getAge() + ", Employee Has A :"
                 + getVehicle().printMyData() + "]";
     }
 
