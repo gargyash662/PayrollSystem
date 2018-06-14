@@ -58,5 +58,28 @@ public class Main {
         //System.out.println("Intern's Birth Year : " + i.calcBirthYear());
         System.out.println("Intern"+ i.printMyData());
 
+        FullTime rr = new FullTime();
+        rr.setName("Rakhi");
+        rr.setAge(24);
+        rr.setSalary(100000);
+        rr.setBonus(20000);
+        Vehicle car2 = new Car();
+        car2.setMake("Bentley");
+        car2.setPlate("Continental");
+        rr.setVehicle(car2);
+        System.out.println("full time"+ rr.printMyData());
+
+        Intern i2 = new Intern();
+        i2.setName("Manpreet");
+        i2.setAge(23);
+        i2.setSchoolName("Lambton");
+        Vehicle bike2 = new MotorCycle();
+        bike2.setMake("abc");
+        bike2.setPlate("mann1234");
+        i2.setVehicle(bike2);
+        System.out.println("Intern" + i2.printMyData());
+
+
+
     }
 }
