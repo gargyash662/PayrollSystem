@@ -1,45 +1,42 @@
 package com.payroll;
 
-import com.payroll.Employee ;
+import com.payroll.Employee;
 
 public class FullTime extends Employee implements IPrintable {
 
     private double salary;
     private double bonus;
 
-    public double getSalary()
-    {
+    public double getSalary() {
         return salary;
     }
 
-    public void setSalary(double salary)
-    {
+    public void setSalary(double salary) {
         this.salary = salary;
     }
 
-    public double getBonus()
-    {
+    public double getBonus() {
         return bonus;
     }
 
-    public void setBonus(double bonus)
-    {
+    public void setBonus(double bonus) {
         this.bonus = bonus;
     }
 
     @Override
-    public double calcEarning()
-    {
+    public double calcEarning() {
         return salary + bonus;
     }
 
     @Override
-    public String printMyData()
-    {
+    public String printMyData() {
         /*return "Salary= " + salary + ", Bonus=" + bonus + ", Name=" + getName() + ", Age=" + getAge()
                 + ", vehicle=" + getVehicle().printMyData() +"]";*/
-        return "Name =  " + getName() +", Bonus=" + bonus + ", Salary=" + salary + ", Age=" + getAge()
-                + ", Employee Has A :" + getVehicle().printMyData() +"]";
+        return "Name :  " + getName() + "\n"
+                + "Bonus :" + bonus + "\n"
+                + "Salary :" + salary + "\n"
+                + "Age :" + getAge() + "\n"
+                + "Employee Has A :"  + getVehicle().printMyData() + "]";
     }
 
 
