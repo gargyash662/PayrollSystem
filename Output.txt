@@ -1,0 +1,50 @@
+Group 12 
+MADTS3464_FINALPROJECT 
+Yash Garg C0738096
+Rakhi Bawa C0691711
+Manpreet C0738175
+Commission Based Part time Employee's data : 
+Name :  John
+Bonus :15000.0
+Salary :60000.0
+Age :26
+Employee Has A :Car =Renault, Plate=JHXCV789]]
+Commission Based Part time Employee's data : 
+
+ Commission=20.0
+ Rate=30.0
+ HoursWorked=10.0
+ Name=Mike
+ Age=24
+ Employee Has A :MotorCycle = Honda, Plate=YTYUTU897]
+
+Fixed Based Part time Employee's data : FixedAmount=30000.0
+, Rate=25.0
+ HoursWorked=40.0
+ Name=Alex
+ Age=28
+ Employee Has A :Car =Ford, Plate=CVCNBV467]]
+Intern
+SchoolName=ABC School
+ Name=Yash
+ Age=23
+ Employee Has A :MotorCycle = Royal Enfield, Plate=BNNGH765]
+
+full timeName :  Rakhi
+Bonus :20000.0
+Salary :100000.0
+Age :24
+Employee Has A :Car =Bentley, Plate=Continental]]
+Intern
+SchoolName=Lambton
+ Name=Manpreet
+ Age=23
+ Employee Has A :MotorCycle = abc, Plate=mann1234]
+
+Commission Based Part time Employee's data : 
+ Commission=30.0
+ Rate=25.0
+ HoursWorked=19.0
+ Name=Rose
+ Age=40
+ Employee Has A :MotorCycle = Karizma, Plate=TTEYN]

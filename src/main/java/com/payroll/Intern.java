@@ -17,8 +17,8 @@ public class Intern extends Employee implements IPrintable {
     @Override
     public String printMyData()
     {
-        return "SchoolName=" + schoolName + ", Name=" + getName() + ", Age=" + getAge() + ", Employee Has A :"
-                + getVehicle().printMyData() + "";
+        return  "\n" + "SchoolName=" + schoolName + "\n" + " Name=" + getName() + "\n" + " Age=" + getAge() + "\n" + " Employee Has A :"
+                + getVehicle().printMyData() + "\n" + "";
     }
 
 }

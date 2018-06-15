@@ -28,7 +28,7 @@ public abstract class Vehicle implements IPrintable {
     @Override
     public String printMyData()
     {
-        return "[Make=" + make + ", Plate=" + plate + "]";
+        return "[Make="   + make + "\n" +" Plate="   + plate + "]";
     }
 
 }
