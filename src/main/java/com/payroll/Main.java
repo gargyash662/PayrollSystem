@@ -19,7 +19,7 @@ public class Main {
         BufferedWriter writer = null;
         try {
             writer = new BufferedWriter(new FileWriter("Output.txt"));
-            writer.write("Group 12 " +"\n" + "MADTS3464_FINALPROJECT " +"\n" + "Yash Garg C0738096" +"\n" + "Rakhi Bawa C0691711" +"\n" +"Manpreet C0738175"  );
+            writer.write("Group 11 " +"\n" + "MADTS3464_FINALPROJECT " +"\n" + "Yash Garg C0738096" +"\n" + "Rakhi Bawa C0691711" +"\n" +"Manpreet C0738175"  +"\n" +" " );
 
         } catch (IOException e) {
             e.printStackTrace();
@@ -36,7 +36,8 @@ public class Main {
         car.setPlate("JHXCV789");
         f.setVehicle(car);
         try {
-            writer.write( "\n" + "Commission Based Part time Employee's data : " + "\n" + f.printMyData());
+            writer.write( "\n" + "Full Time Employee's data : " + "\n" + f.printMyData());
+            writer.write( "\n" + "Full Time Employee's Total Earnings : " + "\n" + f.calcEarning() +"\n"+ "");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -61,6 +62,7 @@ public class Main {
         //System.out.println("Commission Based Part time Employee's data : " + c.printMyData());
         try {
             writer.write("\n" + "Commission Based Part time Employee's data : " + "\n" + c.printMyData());
+            writer.write( "Commission Based Part time Employee's Total Earnings :  " + "\n" + c.calcEarning() +"\n"+ "");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -80,6 +82,7 @@ public class Main {
         //System.out.println("Fixed Based Part time Employee's data : " + fixed.printMyData());
         try {
             writer.write("\n" + "Fixed Based Part time Employee's data : " + fixed.printMyData());
+            writer.write( "Fixed Based Part time Employee's Total Earnings : " + fixed.calcEarning() +"\n"+ "");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -97,6 +100,7 @@ public class Main {
         //System.out.println("Intern"+ i.printMyData());
         try {
             writer.write("\n" + "Intern" + i.printMyData());
+            writer.write( "Intern's Total Earnings :" + i.calcEarning() +"\n"+ "");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -114,6 +118,7 @@ public class Main {
         //System.out.println("full time"+ rr.printMyData());
         try {
             writer.write("\n" + "full time" + rr.printMyData());
+            writer.write( "Full Time Employee's Total Earnings :" + rr.calcEarning() +"\n"+ "");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -130,6 +135,7 @@ public class Main {
         //System.out.println("Intern" + i2.printMyData());
         try {
             writer.write("\n" + "Intern" + i2.printMyData());
+            writer.write( "Intern's Total Earnings :" + i2.calcEarning() +"\n"+ "");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -149,7 +155,8 @@ public class Main {
         //System.out.println("Commission Based Part time Employee's Birth Year : " + c.calcBirthYear());
         //System.out.println("Commission Based Part time Employee's data : " + c1.printMyData());
         try {
-            writer.write("\n" + "Commission Based Part time Employee's data : " + c1.printMyData());
+            writer.write("\n" + "Commission Based Part time Employee's data : " + c1.printMyData() +"\n"+ "");
+            writer.write("\n" + "Commission Based Part time Total Earnings : " + c1.calcEarning() +"\n"+ "");
         }
 
 

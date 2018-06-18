@@ -1,14 +1,18 @@
-Group 12 
+Group 11 
 MADTS3464_FINALPROJECT 
 Yash Garg C0738096
 Rakhi Bawa C0691711
 Manpreet C0738175
-Commission Based Part time Employee's data : 
+ 
+Full Time Employee's data : 
 Name :  John
 Bonus :15000.0
 Salary :60000.0
 Age :26
 Employee Has A :Car =Renault, Plate=JHXCV789]]
+Full Time Employee's Total Earnings : 
+75000.0
+
 Commission Based Part time Employee's data : 
 
  Commission=20.0
@@ -17,29 +21,35 @@ Commission Based Part time Employee's data :
  Name=Mike
  Age=24
  Employee Has A :MotorCycle = Honda, Plate=YTYUTU897]
+Commission Based Part time Employee's Total Earnings :  
+360.0
 
 Fixed Based Part time Employee's data : FixedAmount=30000.0
 , Rate=25.0
  HoursWorked=40.0
  Name=Alex
  Age=28
- Employee Has A :Car =Ford, Plate=CVCNBV467]]
+ Employee Has A :Car =Ford, Plate=CVCNBV467]]Fixed Based Part time Employee's Total Earnings : 31000.0
+
 Intern
 SchoolName=ABC School
  Name=Yash
  Age=23
  Employee Has A :MotorCycle = Royal Enfield, Plate=BNNGH765]
+Intern's Total Earnings :1000.0
 
 full timeName :  Rakhi
 Bonus :20000.0
 Salary :100000.0
 Age :24
-Employee Has A :Car =Bentley, Plate=Continental]]
+Employee Has A :Car =Bentley, Plate=Continental]]Full Time Employee's Total Earnings :120000.0
+
 Intern
 SchoolName=Lambton
  Name=Manpreet
  Age=23
  Employee Has A :MotorCycle = abc, Plate=mann1234]
+Intern's Total Earnings :1000.0
 
 Commission Based Part time Employee's data : 
  Commission=30.0
@@ -48,3 +58,6 @@ Commission Based Part time Employee's data :
  Name=Rose
  Age=40
  Employee Has A :MotorCycle = Karizma, Plate=TTEYN]
+
+
+Commission Based Part time Total Earnings : 617.5
